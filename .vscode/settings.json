@@ -4,5 +4,20 @@
   "azureFunctions.pythonVenv": ".venv",
   "azureFunctions.projectLanguage": "Python",
   "azureFunctions.projectRuntime": "~4",
-  "debug.internalConsoleOptions": "neverOpen"
+  "debug.internalConsoleOptions": "neverOpen",
+  "python.testing.pytestArgs": [
+    "-s",
+    "tests",
+    "--cov-report",
+    "xml",
+    "--cov=DurableFunctionsHttpStart",
+    "--cov=shared_code"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.autoTestDiscoverOnSaveEnabled": true,
+  "coverage-gutters.showGutterCoverage": true,
+  "coverage-gutters.showLineCoverage": true,
+  "coverage-gutters.showRulerCoverage": true,
+  "editor.formatOnSave": true
 }
