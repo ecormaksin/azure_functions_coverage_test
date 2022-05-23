@@ -10,8 +10,7 @@
     "tests",
     "--cov-report",
     "xml",
-    "--cov=DurableFunctionsHttpStart",
-    "--cov=shared_code"
+    "--cov=."
   ],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
